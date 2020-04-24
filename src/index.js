@@ -7,12 +7,10 @@ const config = {
   type: Phaser.AUTO,
   width: SCREEN_WIDTH,
   height: SCREEN_HEIGHT,
-  pixelArt: true,
-  zoom: 1,
   physics: {
     default: 'arcade',
     arcade: {
-      debug: false
+      debug: true
     }
   },
   scene: [MainScene]

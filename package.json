@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "npm run clean && webpack --mode production",
     "dev": "webpack-dev-server",
+    "clean": "rimraf -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +14,7 @@
     "url": "git+https://github.com/next-juanmanuelgomezdeaguero/spaceship.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Juanma Gómez A.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/next-juanmanuelgomezdeaguero/spaceship/issues"
